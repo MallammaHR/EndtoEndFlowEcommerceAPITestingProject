@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.341" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting\target\test-classes;C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting\target\classes;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Mallukinnis\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\Mallukinnis\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\Mallukinnis\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Mallukinnis\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\Mallukinnis\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mallukinnis\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mallukinnis\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mallukinnis\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Mallukinnis\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mallukinnis\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mallukinnis\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mallukinnis\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mallukinnis\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mallukinnis\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\Mallukinnis\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Mallukinnis\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\Mallukinnis\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Mallukinnis\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Mallukinnis\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Mallukinnis\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Mallukinnis\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\slf4j-simple\1.6.4\slf4j-simple-1.6.4.jar;C:\Users\Mallukinnis\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Mallukinnis\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Mallukinnis\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Mallukinnis\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Mallukinnis\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Mallukinnis\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Mallukinnis\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Mallukinnis\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mallukinnis\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Mallukinnis\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Mallukinnis\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Mallukinnis\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Mallukinnis\.m2\repository\org\mockito\mockito-core\1.9.5\mockito-core-1.9.5.jar;C:\Users\Mallukinnis\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\Mallukinnis\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Mallukinnis\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Mallukinnis\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="GMT-06:00"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mallukinnis\AppData\Local\Temp\surefire15767682154227574942\surefirebooter-20240419102319916_3.jar C:\Users\Mallukinnis\AppData\Local\Temp\surefire15767682154227574942 2024-04-19T10-23-18_950-jvmRun1 surefire-20240419102319916_1tmp surefire_0-20240419102319916_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting\target\test-classes;C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting\target\classes;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\Mallukinnis\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Mallukinnis\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\Mallukinnis\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\Mallukinnis\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Mallukinnis\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Mallukinnis\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\Mallukinnis\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mallukinnis\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mallukinnis\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mallukinnis\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Mallukinnis\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mallukinnis\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mallukinnis\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mallukinnis\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mallukinnis\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mallukinnis\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\Mallukinnis\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\Mallukinnis\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Mallukinnis\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Mallukinnis\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\Mallukinnis\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\Mallukinnis\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Mallukinnis\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Mallukinnis\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Mallukinnis\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Mallukinnis\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\slf4j-simple\1.6.4\slf4j-simple-1.6.4.jar;C:\Users\Mallukinnis\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Mallukinnis\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Mallukinnis\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Mallukinnis\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Mallukinnis\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Mallukinnis\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Mallukinnis\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Mallukinnis\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Mallukinnis\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Mallukinnis\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mallukinnis\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Mallukinnis\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Mallukinnis\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Mallukinnis\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Mallukinnis\.m2\repository\org\mockito\mockito-core\1.9.5\mockito-core-1.9.5.jar;C:\Users\Mallukinnis\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\Mallukinnis\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Mallukinnis\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Mallukinnis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Mallukinnis\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Mallukinnis\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Mallukinnis\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mallukinnis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mallukinnis\AppData\Local\Temp\surefire15767682154227574942\surefirebooter-20240419102319916_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="Mallukinnis"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Mallukinnis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MALLUK~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\Users\Mallukinnis\eclipse-workspace\RestAssuredAPIDemo\EndtoEndFlowEcommerceAPITesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath\C:\Users\Mallukinnis\pache-maven-3.9.6-bin\apache-maven-3.9.6\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Users\Mallukinnis\apache-maven-3.9.6\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk-11\bin;C:\Users\mallu\AppData\Local\Android\Sdk\tools\bin;C:\Users\mallu\AppData\Local\Android\Sdk\tools;C:\Users\mallu\AppData\Local\Android\Sdk\platform-tools;C:\Users\mallu\AppData\Roaming\npm;C:\Users\mallu\AppData\Roaming\npm\node_modules;C:\Program Files\Java\jdk-11\bin;C:\Users\Mallukinnis\AppData\Local\Microsoft\WindowsApps;C:\Users\Mallukinnis\AppData\Roaming\nvm;C:\Users\Mallukinnis\AppData\Roaming\npm;C:\Users\Mallukinnis\OneDrive\Desktop\Automation\gradle-8.7\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="deletOrder" classname="com.endToendEcommerce.DeletedOrder" time="12.523">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "postman39@gmail.com",
+    "userPassword": "Hello@123"
+}
+userId is : 661d94bda86f8f74dcc2b83d
+Message is : Login Successfully
+Token is : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjFkOTRiZGE4NmY4Zjc0ZGNjMmI4M2QiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMzlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MzQ2NTY3ODk2NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxMzU0NDM4NiwiZXhwIjoxNzQ1MTAxOTg2fQ.MBXWVS9cLKLkP-4pwK3DtrakTK7XcXxouTZ-A57UtLk
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product/
+Proxy:			<none>
+Request params:	productName=Tablet
+				productAddedBy=661d94bda86f8f74dcc2b83d
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Addias Originals
+				productFor=women
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjFkOTRiZGE4NmY4Zjc0ZGNjMmI4M2QiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMzlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MzQ2NTY3ODk2NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxMzU0NDM4NiwiZXhwIjoxNzQ1MTAxOTg2fQ.MBXWVS9cLKLkP-4pwK3DtrakTK7XcXxouTZ-A57UtLk
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = Tablet.png
+				Content-Type: application/octet-stream
+
+				C:\Users\Mallukinnis\OneDrive\Desktop\Tablet.png
+Body:			<none>
+productId is  : 66229cc6a86f8f74dcc7ebdc
+Message2 is : Product Added Successfully
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjFkOTRiZGE4NmY4Zjc0ZGNjMmI4M2QiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMzlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MzQ2NTY3ODk2NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxMzU0NDM4NiwiZXhwIjoxNzQ1MTAxOTg2fQ.MBXWVS9cLKLkP-4pwK3DtrakTK7XcXxouTZ-A57UtLk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "Austria",
+            "productOrderedId": "66229cc6a86f8f74dcc7ebdc"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Fri, 19 Apr 2024 16:33:12 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-va1acRH0dgYS8UpFAYTIih+giac"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "66229cc8a86f8f74dcc7ebe0"
+    ],
+    "productOrderId": [
+        "66229cc6a86f8f74dcc7ebdc"
+    ],
+    "message": "Order Placed Successfully"
+}
+The orderId is : 66229cc8a86f8f74dcc7ebe0
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/66229cc6a86f8f74dcc7ebdc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=66229cc6a86f8f74dcc7ebdc
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjFkOTRiZGE4NmY4Zjc0ZGNjMmI4M2QiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMzlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MzQ2NTY3ODk2NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxMzU0NDM4NiwiZXhwIjoxNzQ1MTAxOTg2fQ.MBXWVS9cLKLkP-4pwK3DtrakTK7XcXxouTZ-A57UtLk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 19 Apr 2024 16:33:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/delete-order/66229cc8a86f8f74dcc7ebe0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=66229cc8a86f8f74dcc7ebe0
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjFkOTRiZGE4NmY4Zjc0ZGNjMmI4M2QiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMzlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MzQ2NTY3ODk2NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxMzU0NDM4NiwiZXhwIjoxNzQ1MTAxOTg2fQ.MBXWVS9cLKLkP-4pwK3DtrakTK7XcXxouTZ-A57UtLk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 19 Apr 2024 16:33:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+ETag: W/"29-bffoZhIu2/PhrYGwacnOeGY9WaM"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Orders Deleted Successfully"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

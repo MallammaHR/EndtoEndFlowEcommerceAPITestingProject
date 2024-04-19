@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-19T10:23:22 GMT-06:00" name="Suite" finished-at="2024-04-19T10:23:35 GMT-06:00" duration-ms="12643">
+    <groups>
+    </groups>
+    <test started-at="2024-04-19T10:23:22 GMT-06:00" name="Test" finished-at="2024-04-19T10:23:35 GMT-06:00" duration-ms="12643">
+      <class name="com.endToendEcommerce.DeletedOrder">
+        <test-method signature="deletOrder()[pri:0, instance:com.endToendEcommerce.DeletedOrder@29d80d2b]" started-at="2024-04-19T10:23:22 GMT-06:00" name="deletOrder" finished-at="2024-04-19T10:23:35 GMT-06:00" duration-ms="12506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletOrder -->
+      </class> <!-- com.endToendEcommerce.DeletedOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
