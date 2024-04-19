@@ -26,7 +26,7 @@ public class DeletedOrder
 	
 		//need to pass the user details
 		LoginRequest lp1=new LoginRequest();
-		
+		System.out.println();
 		lp1.setUserEmail("postman39@gmail.com");
 		lp1.setUserPassword("Hello@123");
 		
